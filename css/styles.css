@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%; /* Establece el ancho del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Agrega un espacio de relleno alrededor del contenedor */
+  background-color: #f0f0f0; /* Establece el color de fondo del contenedor */
+  border: 1px solid #ccc; /* Agrega un borde al contenedor */
+}
+.titulo {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Cajas */
+
+.cajas {
+  margin: 150px;
+}
+.caja {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+/* Fin cajas */
